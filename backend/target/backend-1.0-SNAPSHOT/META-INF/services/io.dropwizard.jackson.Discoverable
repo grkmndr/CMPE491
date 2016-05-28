@@ -1,0 +1,4 @@
+io.dropwizard.server.ServerFactory
+io.dropwizard.logging.AppenderFactory
+io.dropwizard.metrics.ReporterFactory
+io.dropwizard.jetty.ConnectorFactory

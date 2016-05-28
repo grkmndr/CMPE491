@@ -1,0 +1,41 @@
+database:
+    driverClass: org.postgresql.Driver
+    user: postgres
+    password: pass
+    url: jdbc:postgresql://localhost/test
+
+server:
+    type: default
+    rootPath: /api/*
+    applicationConnectors:
+        - type: http
+          port: 80
+    adminConnectors:
+        - type: http
+          port: 8081
+
+httpClient:
+    # The minimum number of threads to use for asynchronous calls.
+    minThreads: 1
+
+    # The maximum number of threads to use for asynchronous calls.
+    maxThreads: 128
+
+    # If true, the client will automatically decode response entities
+    # with gzip content encoding.
+    gzipEnabled: true
+
+    # If true, the client will encode request entities with gzip
+    # content encoding. (Requires gzipEnabled to be true).
+    gzipEnabledForRequests: true
+
+bearerRealm: we-are-what-we-eat
+
+nutritionixAppId: 7f17136b
+
+nutritionixAppKey: 49307e08409f534a430a963fe86466ce 
+
+avatarFactorOne: 9c85fff64fef632
+
+avatarFactorTwo: 76df669dfb9d02cddd0e17964dae83a047bd05bf
+

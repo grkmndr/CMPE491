@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_60
+Built-By: macapple
+Created-By: Apache Maven 3.2.3
+Main-Class: bounswegroup1.App
+Archiver-Version: Plexus Archiver
+

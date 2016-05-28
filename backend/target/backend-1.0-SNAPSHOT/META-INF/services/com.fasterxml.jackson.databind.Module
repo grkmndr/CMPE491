@@ -1,0 +1,5 @@
+com.fasterxml.jackson.datatype.guava.GuavaModule
+com.fasterxml.jackson.module.afterburner.AfterburnerModule
+
+com.fasterxml.jackson.datatype.joda.JodaModule
+com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule
